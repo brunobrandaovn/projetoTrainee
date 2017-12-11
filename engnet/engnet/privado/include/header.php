@@ -71,7 +71,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="" class="user-image" alt="Colocar Imagem Aqui">
-              <span class="hidden-xs"> Meu nome não está aqui </span>
+              <span class="hidden-xs"> Usuário </span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
