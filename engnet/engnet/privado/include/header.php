@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- Logo -->
-    <a href="http://localhost/engnet/engnet/index.php" class="logo">
+    <a href="http://localhost/engnet/engnet/privado/index.php" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>E</b>NC</span>
       <!-- logo for regular state and mobile devices -->

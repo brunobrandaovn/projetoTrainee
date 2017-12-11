@@ -113,7 +113,7 @@
             </li>
             <li class="treeview"><a href="http://localhost/engnet/engnet/privado/dir/com/"><i class="fa fa-circle-o"></i> Comercial</a>
               <ul class="treeview-menu">
-                <li><a href="http://localhost/engnet/engnet/privado/dir/com/adicionar-cliente.php"><i class="fa fa-circle-o"></i>Adicionar Cliente</a></li>
+                <li><a href="http://localhost/engnet/engnet/privado/dir/com/adicionar_cliente.php"><i class="fa fa-circle-o"></i>Adicionar Cliente</a></li>
                 <li><a href="http://localhost/engnet/engnet/privado/dir/com/editar-cliente.php"><i class="fa fa-circle-o"></i>Editar Cliente</a></li>
                 <li><a href="http://localhost/engnet/engnet/privado/dir/com/etapas-negociacao.php"><i class="fa fa-circle-o"></i>Negociação</a></li>
                 <li><a href="http://localhost/engnet/engnet/privado/dir/com/alterar-etapa-negociacao.php"><i class="fa fa-circle-o"></i>Editar Negociação</a></li>
