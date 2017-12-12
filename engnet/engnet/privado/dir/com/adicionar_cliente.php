@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>WikiNet</title>
+  <title>Cadastro de Cliente</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -50,8 +50,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        WikiNet
-        <small>Central de Artigos</small>
+        Comercial
+        <small>Cadastrar Cliente</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -80,30 +80,30 @@
             <!-- /.box-header -->
             <div class="box-body">
              <table id="cliente" class="table table-bordered table-hover">
-             <form role="form">
+             <form role="form" method="post" action="adicionar.php" id="formCadastrarCliente">
                 <!-- text input -->
                 <!--Nome -->
                 <div class="form-group">
                   <label>Nome</label>
-                  <input type="text" class="form-control" placeholder="Nome">
+                  <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome">
                 </div>
                 <div class="form-group">
                 <!--Sobrenome -->
                 <div class="form-group">
                   <label>Sobrenome</label>
-                  <input type="text" class="form-control" placeholder="Sobrenome">
+                  <input type="text" class="form-control" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
                 </div>
                 <div class="form-group">
                 <!--Empresa -->
                 <div class="form-group">
                   <label>Empresa</label>
-                  <input type="text" class="form-control" placeholder="Empresa">
+                  <input type="text" class="form-control" id="empresa" name="empresa" placeholder="Empresa">
                 </div>
                 <div class="form-group">
                   <!-- Projeto -->
                 <div class="form-group">
                   <label>Projeto</label>
-                  <select class="form-control select2" style="width: 100%;">
+                  <select class="form-control select2" id="projeto" name="projeto" style="width: 100%;">
                   <option selected="selected">Escolha o projeto</option>
                   <option>Cabeamento Estruturado</option>
                   <option>Otimização de Wifi</option>
@@ -120,14 +120,15 @@
                   <div class="input-group-addon">
                     <i class="fa fa-phone"></i>
                   </div>
-                  <input type="text" class="form-control" data-inputmask='"mask": "(99) 9999-9999"' data-mask>
+                  <input type="text" class="form-control" id="telefone" name="telefone" data-inputmask='"mask": "(99) 9999-9999"' data-mask>
                 </div>
                 <!-- /.input group -->
               </div>
               <!-- /.form group -->
-              <button type="submit" class="btn btn-info pull-right">Adicionar</button>
+              <button type="submit" class="btn btn-info pull-right">Cadastrar</button>
 
                 </div>
+              </form>
               </table>
             </div> 
        </div> 

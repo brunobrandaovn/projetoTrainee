@@ -1,18 +1,17 @@
 <?php
-	
-	class db {
 
-		private $host = 'localhost';
+		$host = 'localhost';
+		$usuario = 'root';
+		$senha = '';
+		$database = 'projetofinal';
 
-		private $usuario = 'root';
+		$con = new MySQLi("$host","$usuario","$senha","$database");
 
-		private $senha = '';
-
-		private $database = 'projetofinal';
-
-		public function conecta_mysql(){
-			mysqli_connect($this->host, $this->usuario, $this->senha, $this->database)
+		if($con->connect_error){
+			echo "Erro ao tentar conectar com o banco de dados";
+			echo "<br/>";
+		}else{
+			echo "A conexao deu certo";
+			echo "<br/>";
 		}
-}
-
 ?>
