@@ -105,11 +105,11 @@
                   <label>Projeto</label>
                   <select class="form-control select2" id="projeto" name="projeto" style="width: 100%;">
                   <option selected="selected">Escolha o projeto</option>
-                  <option>Cabeamento Estruturado</option>
-                  <option>Otimização de Wifi</option>
-                  <option>Servidores</option>
-                  <option>Aplicativo</option>
-                  <option>Site</option>
+                  <option value="1">Cabeamento Estruturado</option>
+                  <option value="2">Otimização de Wifi</option>
+                  <option value="3">Servidores</option>
+                  <option value="4">Aplicativo</option>
+                  <option value="5">Site</option>
                 </select>
                 </div>
                 <div class="form-group">

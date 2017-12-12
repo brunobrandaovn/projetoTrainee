@@ -7,12 +7,10 @@
 	$empresa = $_POST['empresa'];
 	$projeto = $_POST['projeto'];
 	$telefone = $_POST['telefone'];
-
-	echo $_POST['telefone'];
-	echo "<br/>";
-
 	
-	$sql = $con->query("INSERT into cliente (nome, sobrenome, empresa, id_projeto, telefone) values ('$nome', '$sobrenome', '$empresa', '$projeto', '$telefone')");
+	$sql = "INSERT INTO cliente('nome', 'sobrenome', 'empresa', 'id_projeto', 'telefone') VALUES ('.$nome.', '.$sobrenome.', '.$empresa.', '.$projeto.','.$telefone.')";
+
+	mysqli_query($con,$sql);
 
 	if($sql){
 		echo "A insercao deu certo.";
