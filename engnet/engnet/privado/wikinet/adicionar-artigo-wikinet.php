@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Membros</title>
+  <title>Adicionar artigo</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -55,7 +55,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Membros</li>
+        <li class="active">WikiNet</li>
       </ol>
     </section>
     <!-- Main content -->
@@ -73,28 +73,64 @@
           <div class="row">
         <div class="col-xs-12">
           <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Novo artigo</h3>
             
             <!-- /.box-header -->
             <div class="box-body">
-             <table id="cliente" class="table table-bordered table-hover">
-             <form role="form">
+             <table id="artigo" class="table table-bordered table-hover">
+             <form role="form" method="post" action="adicionar.php" id="adicionarArtigo">
                 <!-- text input -->
-                <!--Nome -->
+
+                <!--Autor-->
                 <div class="form-group">
-                  <label>Título</label>
-                  <input type="text" class="form-control" placeholder="Título">
-                </div>
-                <div class="form-group">
-                <!--Sobrenome -->
-                <div class="form-group">
-                  <label>Diretoria</label>
-                  <input type="text" class="form-control" placeholder="Diretoria">
+                  <label>Autor</label>
+                  <input type="text" class="form-control" placeholder="Autor" id="autor" name="autor">
                 </div>
 
+
+                <!--Título-->
                 <div class="form-group">
-                  <label>Artigo</label>
-                  <textarea class="form-control" rows="3" placeholder="Descrição ..."></textarea>
+                  <label>Título</label>
+                  <input type="text" class="form-control" placeholder="Título" id="titulo" name="titulo">
                 </div>
+                
+                <!--Diretoria -->
+                <div class="form-group">
+                  <label>Diretoria</label>
+                  <select class="form-control select2" id="diretoria" name="diretoria" style="width: 100%;">
+                  <option selected="selected">Escolha a diretoria</option>
+                  <option value="1">Comercial</option>
+                  <option value="2">Projetos</option>
+                  <option value="3">Gestão de Pessoas</option>
+                  <option value="4">Marketing</option>
+                </select>
+                </div>
+            
+            <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Inserir Artigo
+                <small>EngNet Consultoria</small>
+              </h3>
+              <!-- tools box -->
+              <div class="pull-right box-tools">
+                <button type="button" class="btn btn-default btn-sm" data-widget="collapse" data-toggle="tooltip"
+                        title="Collapse">
+                  <i class="fa fa-minus"></i></button>
+                <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip"
+                        title="Remove">
+                  <i class="fa fa-times"></i></button>
+              </div>
+              <!-- /. tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body pad">
+              <form  id="artigo" name="artigo">
+                <textarea class="textarea" placeholder="Artigo"
+                          style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+              </form>
+            </div>
+          </div>
 
                 
                 <!-- /.input group -->
@@ -103,6 +139,7 @@
               <button type="submit" class="btn btn-info pull-right">Adicionar</button>
 
                 </div>
+                </form>
               </table>
             </div> 
        </div> 
