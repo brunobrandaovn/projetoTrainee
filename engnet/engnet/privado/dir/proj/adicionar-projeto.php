@@ -59,7 +59,7 @@
     </section>
     <!-- Main content -->
     <section class="content">
-      
+
       <!-- Small boxes (Stat box) -->
       <div class="row">
         <!-- ./col -->
@@ -77,30 +77,38 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-             <table id="cliente" class="table table-bordered table-hover">
-             <form role="form">
+             <table id="projeto" class="table table-bordered table-hover">
+             <form role="form" method="post" action="adicionar.php" id="formCadastrarProjeto">
                 <!-- text input -->
+                
                 <!--Nome -->
                 <div class="form-group">
                   <label>Nome</label>
-                  <input type="text" class="form-control" placeholder="Nome">
+                  <input type="text" class="form-control" placeholder="Nome" id="nome" name="nome">
                 </div>
-                <div class="form-group">
+
                 <!--Código -->
                 <div class="form-group">
                   <label>Código do Projeto</label>
-                  <input type="text" class="form-control" placeholder="Código">
+                  <input type="text" class="form-control" placeholder="Código" id="codigo" name="codigo">
                 </div>
-                <div class="form-group">
+                
                 <!--Cliente -->
                 <div class="form-group">
                   <label>Cliente</label>
-                  <input type="text" class="form-control" placeholder="Cliente">
+                  <input type="text" class="form-control" placeholder="Cliente" id="cliente" name="cliente">
                 </div>
+
+                <!--Valor -->
+                <div class="form-group">
+                  <label>Valor</label>
+                  <input type="text" class="form-control" placeholder="Valor" id="valor" name="valor">
+                </div>
+
                 <!--Descrição -->
                 <div class="form-group">
                   <label>Descrição do Projeto</label>
-                  <textarea class="form-control" rows="3" placeholder="Descrição ..."></textarea>
+                  <textarea class="form-control" rows="3" placeholder="Descrição ..."  id="desc" name="desc"></textarea>
                 </div>
 
                 
@@ -108,6 +116,7 @@
               <button type="submit" class="btn btn-info pull-right">Adicionar</button>
 
                 </div>
+                </form>
               </table>
             </div> 
        </div> 
