@@ -60,7 +60,7 @@
     </section>
     <!-- Main content -->
     <section class="content">
-      
+
 
 <!-- Small boxes (Stat box) -->
       <div class="row">
@@ -80,7 +80,7 @@
             <!-- /.box-header -->
             <div class="box-body">
              <table id="cliente" class="table table-bordered table-hover">
-             <form role="form" method="post" action="adicionar.php" id="formCadastrarCliente">
+             <form role="form" method="POST" action="adicionar.php" id="formCadastrarCliente">
                 <!-- text input -->
                 <!--Nome -->
                 <div class="form-group">
@@ -130,8 +130,8 @@
                 </div>
               </form>
               </table>
-            </div> 
-       </div> 
+            </div>
+       </div>
       </div>
       </div>
        <!-- /.box-body -->
@@ -145,14 +145,14 @@
         <!-- /.Left col -->
         <!-- right col (We are only adding the ID to make the widgets sortable)-->
         <section class="col-lg-5 connectedSortable">
-          
+
 
         </section>
         <!-- right col -->
       </div>
       <!-- /.row (main row) -->
 
-      
+
 
     </section>
     <!-- /.content -->

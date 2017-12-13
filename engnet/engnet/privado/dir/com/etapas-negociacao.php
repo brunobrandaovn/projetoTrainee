@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>WikiNet</title>
+  <title>Etapas Negociação</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -50,21 +50,21 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        WikiNet
-        <small>Central de Artigos</small>
+        Etapas
+        <small>Etapas da Negociação</small>
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Wikinet</li>
+        <li class="active">Etapas</li>
       </ol>
     </section>
     <!-- Main content -->
     <section class="content">
-      
-      
+
+
 
 <!-- Small boxes (Stat box) -->
-      <div class="row">        
+      <div class="row">
         <!-- ./col -->
       </div>
       <!-- /.row -->
@@ -87,12 +87,12 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body table-responsive no-padding">
-              <table class="table table-hover">
+              <table id="etapas" class="table table-hover">
                 <tr>
-                  <th>Projeto</th>
-                  <th>Estado da Negociação</th>
-                  <th>Comentários adicionais</th>
-                  <th>Alterar</th>
+                  <th id="projeto">Projeto</th>
+                  <th id="estado">Estado da Negociação</th>
+                  <th id="comentarios">Comentários adicionais</th>
+                  <th id="alterar">Alterar</th>
                 </tr>
 
               </table>
@@ -108,14 +108,14 @@
         <!-- /.Left col -->
         <!-- right col (We are only adding the ID to make the widgets sortable)-->
         <section class="col-lg-5 connectedSortable">
-          
+
 
         </section>
         <!-- right col -->
       </div>
       <!-- /.row (main row) -->
 
-      
+
 
     </section>
     <!-- /.content -->
